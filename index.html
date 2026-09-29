@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.dataset.theme=localStorage.getItem("theme")||"dark";</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">Sienna Mañalac</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <nav id="nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main class="hero">
+  <img src="profile.jpg" alt="Profile picture of Sienna Mañalac" class="avatar">
+  <h1>Hi, I'm Sienna Mañalac</h1>
+  <p class="typed-line">I'm a <span id="typed"></span><span class="cursor">|</span></p>
+  <p class="intro">I'm a 3rd year BSIT student at Systems Plus College Foundation with 8 months of experience as an admin assistant and in basic bookkeeping. I like keeping records accurate and organized, and I'm building my skills in web development.</p>
+  <a href="projects.html" class="btn">View My Portfolio</a>
+</main>
+<footer>&copy; 2026 Sienna Mañalac. Built with HTML, CSS &amp; JavaScript.</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.dataset.theme=localStorage.getItem("theme")||"dark";</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">Sienna Mañalac</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <nav id="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main class="page">
+  <h1>About Me</h1>
+  <section class="card reveal">
+    <h2>Introduction</h2>
+    <p>Hello! I'm Sienna Mañalac, a 3rd year Bachelor of Science in Information Technology student. Outside of class, I've worked for 8 months as an admin assistant with basic bookkeeping duties, where I handled file organizing, data entry and tax encoding. I enjoy work that needs accuracy and good organization, and I'm now combining that with web development.</p>
+  </section>
+  <section class="card reveal">
+    <h2>Education</h2>
+    <ul class="timeline">
+      <li><strong>Bachelor of Science in Information Technology (3rd Year)</strong><br>Systems Plus College Foundation, Present</li>
+    </ul>
+  </section>
+  <section class="card reveal">
+    <h2>Work Experience</h2>
+    <ul class="timeline">
+      <li><strong>Admin Assistant &amp; Basic Bookkeeping</strong><br>8 months<br>File organizing, data entry, and tax encoding.</li>
+    </ul>
+  </section>
+  <section class="card reveal">
+    <h2>Skills</h2>
+    <div class="skill"><span>Data Entry</span><div class="bar"><div data-level="90"></div></div></div>
+    <div class="skill"><span>File Organizing</span><div class="bar"><div data-level="90"></div></div></div>
+    <div class="skill"><span>Microsoft Excel</span><div class="bar"><div data-level="80"></div></div></div>
+    <div class="skill"><span>Basic Bookkeeping &amp; Tax Encoding</span><div class="bar"><div data-level="75"></div></div></div>
+    <div class="skill"><span>HTML, CSS &amp; JavaScript</span><div class="bar"><div data-level="65"></div></div></div>
+  </section>
+  <section class="card reveal">
+    <h2>Hobbies &amp; Interests</h2>
+    <div class="tags"><span>Gaming</span><span>Music</span><span>Drawing</span><span>Watching k-drama</span><span>sports</span></div>
+  </section>
+</main>
+<footer>&copy; 2026 Sienna Mañalac. Built with HTML, CSS &amp; JavaScript.</footer>
+<script src="script.js"></script>
+</body>
+</html>

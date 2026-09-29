@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.dataset.theme=localStorage.getItem("theme")||"dark";</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">Sienna Mañalac</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <nav id="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+</header>
+<main class="page narrow">
+  <h1>Contact Me</h1>
+  <form id="contactForm" class="card" novalidate>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name">
+    <small class="error" data-for="name"></small>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com">
+    <small class="error" data-for="email"></small>
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="What is this about?">
+    <small class="error" data-for="subject"></small>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+    <small class="error" data-for="message"></small>
+
+    <button type="submit" class="btn">Send Message</button>
+    <p id="formStatus" role="status"></p>
+  </form>
+</main>
+<footer>&copy; 2026 Sienna Mañalac. Built with HTML, CSS &amp; JavaScript.</footer>
+<script src="script.js"></script>
+</body>
+</html>

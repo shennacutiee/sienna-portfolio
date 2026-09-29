@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.dataset.theme=localStorage.getItem("theme")||"dark";</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">Sienna Mañalac</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <nav id="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main class="page">
+  <h1>My Projects</h1>
+  <div class="grid">
+    <article class="project reveal">
+      <img src="project1.png" alt="Excel ledger of a client's yearly taxes and contributions">
+      <div class="body">
+        <h3>Data Entry</h3>
+        <p>Entered a client's sales, tax payments and contributions into a yearly ledger, including amounts, banks and payment dates for each month and quarter.</p>
+        <div class="tags"><span>Microsoft Excel</span><span>Data Entry</span><span>Accuracy</span></div>
+      </div>
+    </article>
+    <article class="project reveal">
+      <img src="project2.png" alt="Folder of organized client PDF files">
+      <div class="body">
+        <h3>File Organizing</h3>
+        <p>Sorted and named a folder of 54 client PDF files alphabetically, using a consistent format so any record can be found quickly.</p>
+        <div class="tags"><span>Windows File Explorer</span><span>PDF</span><span>Naming Convention</span></div>
+      </div>
+    </article>
+    <article class="project reveal">
+      <img src="project3.png" alt="Monthly VAT sales report in Excel next to a sales entry screen">
+      <div class="body">
+        <h3>Tax Encoding</h3>
+        <p>Encoded monthly sales into an Excel report and an accounting entry screen, with invoice numbers, net amounts, VAT and total output tax.</p>
+        <div class="tags"><span>Microsoft Excel</span><span>VAT</span><span>Tax Records</span></div>
+      </div>
+    </article>
+  </div>
+</main>
+<footer>&copy; 2026 Sienna Mañalac. Built with HTML, CSS &amp; JavaScript.</footer>
+<script src="script.js"></script>
+</body>
+</html>
